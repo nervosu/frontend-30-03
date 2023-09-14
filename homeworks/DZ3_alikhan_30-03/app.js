@@ -1,9 +1,11 @@
 // 1 задание
 var numbers = [123, 234, 256, 345, 456, 567, 543, 67, 55, 23, 28, 50]
+var newArray = []
 for(var i of numbers){
     var numFor = Number(i.toString()[0])
     if (numFor === 2 || numFor === 5) 
-        console.log(i)
+        newArray.push(i)
+        console.log(newArray)
 }
 
 //2 задание 
