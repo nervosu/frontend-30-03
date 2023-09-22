@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: silver;
+    padding: 20px;
+}
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+}
+
+input{
+    border: 2px solid teal;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    padding: 5px; 
+}
+
+#create_button{
+    width: 250px;
+    height: 40px;
+    border: 2px solid teal;
+    padding: 8px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#todo_list{
+    margin: 0 auto;
+    width: 750px;
+}
+.block_text {
+    width: 100%;
+    border: 2px solid;
+}
